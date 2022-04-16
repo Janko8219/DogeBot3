@@ -587,28 +587,31 @@ menu =
 `*_${ucapanWaktu} @${senderr.split('@')[0]}_*
 
 ❏「 TIME 」
+
 ${gaya1} *ᴅᴀᴛᴇ* : ${tanggal}
 ${gaya1} *ᴛɪᴍᴇ* : ${time}
+
+
 
 ❏「 INFO BOT 」
 ${gaya1} *ꜱᴩᴇᴇᴅ* : ${latensie.toFixed(4)} Second
 ${gaya1} *ʀᴜɴᴛɪᴍᴇ* : ${runtime(process.uptime())}
 ${gaya1} *ʙᴏᴛ ʙᴏᴛ* : ${botname}
-${gaya1} *Owner Name* : ${ownername}
-${gaya1} *Owner Number* : @${pemilik.split('@')[0]}
-${gaya1} *Host Name :* ${os.hostname()}
-${gaya1} *Platform :* ${os.platform()}
-${gaya1} *Wa Version :* ${DogeXeonOP.user.phone.wa_version}
-${gaya1} *Mode :* ${self ? "Self" : "Public"}
-${gaya1} *Autoread* : ${autoread ? "Active" : "Off"}
-${gaya1} *Autotype* : ${autoketik ? "Active" : "Off"}
-${gaya1} *Autovn* : ${autovn ? "Active" : "Off"}
+${gaya1} *ᴏᴡɴᴇʀ ɴᴀᴍᴇ* : ${ownername}
+${gaya1} *ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ* : @${pemilik.split('@')[0]}
+${gaya1} *ʜᴏꜱᴛ ɴᴀᴍᴇ:* ${os.hostname()}
+${gaya1} *ᴩʟᴀᴛꜰᴏʀᴍ:* ${os.platform()}
+${gaya1} *ᵂᴬ ᴠɪʀꜱɪᴏɴ :* ${DogeXeonOP.user.phone.wa_version}
+${gaya1} *ᴍᴏᴅᴇ :* ${self ? "Self" : "Public"}
+${gaya1} *ᴀᴜᴛᴏʀᴇᴀᴅ* : ${autoread ? "Active" : "Off"}
+${gaya1} *ᴀᴜᴛᴏᴛyᴩᴇ* : ${autoketik ? "Active" : "Off"}
+${gaya1} *ᴀᴜᴛᴏ ᴠɴ* : ${autovn ? "Active" : "Off"}
 
 ❏「 USER INFO 」
-${gaya1} *Name* : ${pushname}
-${gaya1} *Bio* : ${bio_user}
-${gaya1} *Number* : @${senderr.split('@')[0]}
-${gaya1} *Status* : ${isOwner ? 'Owner' : 'User'}`
+${gaya1} *ɴᴀᴍᴇ* : ${pushname}
+${gaya1} *ʙɪᴏ* : ${bio_user}
+${gaya1} *ɴᴜᴍʙᴇʀ* : @${senderr.split('@')[0]}
+${gaya1} *ꜱᴛᴀᴛᴜꜱ* : ${isOwner ? 'Owner' : 'User'}`
 teks =
 `
  _ʜᴇʟʟᴏ ʜᴏᴡ ᴀʀᴇ yᴏᴜ 🤗_
