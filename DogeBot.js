@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '918590822912'
+developerName= '🌟 ᴍᴜɴᴀᴠɪʀ'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -271,7 +271,7 @@ console.log(e)
 //══════════[ Mess Dll ]══════════//
 
 mess = {
-wait: 'In process...',
+wait: 'ᴡᴀɪᴛ ʟᴏᴅɪɴɢ ...',
 eror: 'Sorry an error occurred!!',
 success: 'Done✓',
 error: {
@@ -518,8 +518,8 @@ for (let anji of setik){
 ├ 💠 𝗟𝗲𝘃𝗲𝗹  : ${getLevelingLevel(sender)}
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
-		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
-          sendButton(from, lvlup, '*Doge Bot*', but)
+		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 💢' }, type: 1 }]
+          sendButton(from, lvlup, '*MR Bot*', but)
 
                 }
             } catch (err) {
@@ -610,15 +610,15 @@ ${gaya1} *Bio* : ${bio_user}
 ${gaya1} *Number* : @${senderr.split('@')[0]}
 ${gaya1} *Status* : ${isOwner ? 'Owner' : 'User'}`
 teks =
-`_Please Select Button Below_
-_If You Are A Mod User_
+`
+ _${pushname}ʜᴇʟʟᴏ ʜᴏᴡ ᴀʀᴇ yᴏᴜ_
 _Please Type ${prefix}command_`
 DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
 break
 case 'command':
 
 listMsg = {
-buttonText: 'MENU 📃',
+buttonText: 'MENU 🌟',
 footerText: `*${botname}*`,
 description: `Hi Friend @${senderr.split('@')[0]}, Please select the menu here`,
 sections: [
