@@ -611,8 +611,8 @@ ${gaya1} *Number* : @${senderr.split('@')[0]}
 ${gaya1} *Status* : ${isOwner ? 'Owner' : 'User'}`
 teks =
 `
- _${pushname}ʜᴇʟʟᴏ ʜᴏᴡ ᴀʀᴇ yᴏᴜ_
-_Please Type ${prefix}command_`
+ _ʟʟᴏ ʜᴏᴡ ᴀʀᴇ yᴏᴜ 🤗_
+_ᴩʟᴇᴀꜱᴇ ᴛyᴩᴇ${prefix}command_`
 DogeXeonOP.sendMessage(from, { contentText: `${teks}`, footerText: `${menu}`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },{ buttonId: `${prefix}sc`, buttonText: { displayText: 'SCRIPT 📝' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr,pemilik]}}}, 'buttonsMessage')
 break
 case 'command':
