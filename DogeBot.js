@@ -273,7 +273,7 @@ console.log(e)
 mess = {
 wait: 'ᴡᴀɪᴛ ʟᴏᴅɪɴɢ ...',
 eror: 'Sorry an error occurred!!',
-success: 'Done✓',
+success: 'ᴅᴏɴᴇ✅',
 error: {
 stick: 'Thats not a sticker bro !!',
 Iv: 'Link invalid !!'
@@ -2840,7 +2840,7 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${ownername}\n`
-+ `ORG: Owner Of Doge Bot ;\n`
++ `ORG: Owner Of MR Bot ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${owner}:${owner}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
@@ -2857,7 +2857,7 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${developerName}\n`
-+ `ORG: Developer Of Doge Bot ;\n`
++ `ORG: Developer Of MR Bot ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${developerNo}:${developerNo}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
